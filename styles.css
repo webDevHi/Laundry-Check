@@ -1,0 +1,37 @@
+body {
+    font-family: 'Inter Tight',sans-serif;
+    }
+        
+                                                                                              
+    
+    .nav-bar {
+    
+      display:flex; 
+      flex-direction: row;
+      height: 50px;
+      width: 50px;
+    
+    }
+    
+    .about-me {
+        padding: 40px;
+        text-align: center;
+    }
+    
+    .project {
+        margin-bottom: 400px;
+    }
+    .project-title {
+        font-weight: bold;
+    }
+    img {
+    flex-grow: 1;
+    flex-shrink: 1;
+    }
+    
+    .container-navbar {
+    align-self: flex-end;
+    
+    
+    }
+    

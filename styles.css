@@ -1,15 +1,14 @@
 body {
     font-family: 'Inter Tight',sans-serif;
     }
-        
-                                                                                              
     
     .nav-bar {
     
       display:flex; 
       flex-direction: row;
-      height: 50px;
-      width: 50px;
+      height: 12vh;
+      min-width: 100%;
+      gap: 30%;
     
     }
     
@@ -24,14 +23,36 @@ body {
     .project-title {
         font-weight: bold;
     }
+
     img {
-    flex-grow: 1;
-    flex-shrink: 1;
+        flex-shrink: 2;
     }
     
-    .container-navbar {
-    align-self: flex-end;
-    
-    
+    #nav-left {
+        display:flex;
+        width: 20%;
+        height:10vh;
+        gap: 10px;
+    }
+
+    #nav-right{
+        width: 50%;
+        font-family:Roboto;
+        padding: 10px 5px 5px 90px;
+        font-size:large;
     }
     
+    button {
+        border-radius: 15px;
+        border-width: .05pc;
+        background-color:white;
+    }
+
+    #toggle:hover {
+        visibility: hidden;
+        position: relative;
+    }
+
+    h3 {
+        padding-top: 15px;
+    }
